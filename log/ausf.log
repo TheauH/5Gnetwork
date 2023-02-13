@@ -95,3 +95,21 @@ Open5GS daemon v2.4.4
 01/31 17:03:44.143: [app] WARNING: Try to discover [UDM] (../lib/sbi/path.c:110)
 01/31 17:03:44.147: [ausf] INFO: [286421d8-a189-41ed-87c3-5d0bbc6e1c69] (NF-discover) NF registered (../src/ausf/nnrf-handler.c:283)
 01/31 17:03:44.148: [ausf] INFO: [286421d8-a189-41ed-87c3-5d0bbc6e1c69] (NF-discover) NF Profile updated (../src/ausf/nnrf-handler.c:329)
+Open5GS daemon v2.4.4
+
+02/03 11:38:09.756: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+02/03 11:38:09.756: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+02/03 11:38:09.759: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+02/03 11:38:09.810: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+02/03 11:38:09.837: [ausf] INFO: [3be577fe-a3b7-41ed-8f45-99612a0ababe] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+02/03 11:38:09.869: [ausf] INFO: [3bf37462-a3b7-41ed-933d-ffdb48ccb7d8] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+02/03 11:38:09.869: [ausf] INFO: [3bf37462-a3b7-41ed-933d-ffdb48ccb7d8] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+02/03 11:40:09.001: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+02/03 11:40:09.002: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+02/03 11:40:09.003: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+02/03 11:40:09.022: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+02/03 11:40:09.025: [ausf] INFO: [82f8c5e2-a3b7-41ed-b161-7b7438a0a61c] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+02/03 11:40:09.071: [ausf] INFO: [8300fc76-a3b7-41ed-bae7-4939a3248548] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+02/03 11:40:09.071: [ausf] INFO: [8300fc76-a3b7-41ed-bae7-4939a3248548] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)

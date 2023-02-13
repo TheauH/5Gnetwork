@@ -1,13 +1,15 @@
 UERANSIM v3.2.6
-[2023-01-31 17:03:35.808] [sctp] [info] Trying to establish SCTP connection... (192.168.0.111:38412)
-[2023-01-31 17:03:36.221] [sctp] [info] SCTP connection established (192.168.0.111:38412)
-[2023-01-31 17:03:36.224] [sctp] [debug] SCTP association setup ascId[538]
-[2023-01-31 17:03:36.226] [ngap] [debug] Sending NG Setup Request
-[2023-01-31 17:03:36.385] [ngap] [debug] NG Setup Response received
-[2023-01-31 17:03:36.387] [ngap] [info] NG Setup procedure is successful
-[2023-01-31 17:03:41.489] [rrc] [debug] UE[1] new signal detected
-[2023-01-31 17:03:44.021] [rrc] [info] RRC Setup for UE[1]
-[2023-01-31 17:03:44.033] [ngap] [debug] Initial NAS message received from UE[1]
-[2023-01-31 17:03:44.801] [ngap] [debug] Initial Context Setup Request received
-[2023-01-31 17:03:45.420] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
-[2023-01-31 17:03:45.518] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+[2023-02-03 11:40:26.487] [sctp] [info] Trying to establish SCTP connection... (192.168.0.111:38412)
+[2023-02-03 11:40:26.894] [sctp] [info] SCTP connection established (192.168.0.111:38412)
+[2023-02-03 11:40:26.894] [sctp] [debug] SCTP association setup ascId[4]
+[2023-02-03 11:40:26.895] [ngap] [debug] Sending NG Setup Request
+[2023-02-03 11:40:27.040] [ngap] [debug] NG Setup Response received
+[2023-02-03 11:40:27.040] [ngap] [info] NG Setup procedure is successful
+[2023-02-03 11:40:32.058] [rrc] [debug] UE[1] new signal detected
+[2023-02-03 11:40:32.071] [rrc] [info] RRC Setup for UE[1]
+[2023-02-03 11:40:32.077] [ngap] [debug] Initial NAS message received from UE[1]
+[2023-02-03 11:40:32.690] [ngap] [debug] Initial Context Setup Request received
+[2023-02-03 11:40:33.217] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+[2023-02-03 11:40:33.313] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+[2023-02-03 11:40:33.316] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+[2023-02-03 16:15:23.951] [rls] [debug] UE[1] signal lost

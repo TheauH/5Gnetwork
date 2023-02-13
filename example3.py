@@ -254,7 +254,7 @@ if __name__ == "__main__":
     print(f"*** Open5GS: Init subscriber for UE 0")
     o5gs   = Open5GS( "172.17.0.2" ,"27017")
     o5gs.removeAllSubscribers()
-    with open( prj_folder + "/python_modules/subscriber_profile2.json" , 'r') as f:
+    with open( prj_folder + "/python_modules/subscriber_profile_2.json" , 'r') as f:
         profile = json.load( f )
     o5gs.addSubscriber(profile)
 
