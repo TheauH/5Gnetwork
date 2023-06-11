@@ -190,6 +190,7 @@ Open5GS daemon v2.4.4
 06/11 14:44:35.981: [amf] INFO: [Removed] Number of gNB-UEs is now 0 (../src/amf/context.c:2070)
 Open5GS daemon v2.4.4
 
+<<<<<<< Updated upstream
 06/11 15:26:55.505: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/amf.yaml' (../lib/app/ogs-init.c:129)
 06/11 15:26:55.505: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/amf.log' (../lib/app/ogs-init.c:132)
 06/11 15:26:55.512: [sbi] INFO: nghttp2_server() [127.0.0.5]:7777 (../lib/sbi/nghttp2-server.c:144)
@@ -202,3 +203,15 @@ Open5GS daemon v2.4.4
 06/11 15:26:55.556: [amf] INFO: [65f9d7b4-086c-41ee-9740-a92f32d34265] (NRF-notify) NF Profile updated (../src/amf/nnrf-handler.c:201)
 06/11 15:26:55.682: [amf] INFO: [66002a38-086c-41ee-8ea5-0bcb498225f2] (NRF-notify) NF registered (../src/amf/nnrf-handler.c:182)
 06/11 15:26:55.682: [amf] INFO: [66002a38-086c-41ee-8ea5-0bcb498225f2] (NRF-notify) NF Profile updated (../src/amf/nnrf-handler.c:201)
+=======
+06/11 15:10:48.069: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/amf.yaml' (../lib/app/ogs-init.c:129)
+06/11 15:10:48.071: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/amf.log' (../lib/app/ogs-init.c:132)
+06/11 15:10:48.074: [sbi] INFO: nghttp2_server() [127.0.0.5]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/11 15:10:48.077: [amf] INFO: ngap_server() [192.168.0.111]:38412 (../src/amf/ngap-sctp.c:53)
+06/11 15:10:48.078: [sctp] INFO: AMF initialize...done (../src/amf/app.c:33)
+06/11 15:10:48.083: [amf] INFO: [255190e6-086a-41ee-a231-b1dd8e98aff1] NF registred [Heartbeat:10s] (../src/amf/nf-sm.c:198)
+06/11 15:10:48.107: [amf] INFO: [2555631a-086a-41ee-8a8b-178b850a437a] (NRF-notify) NF registered (../src/amf/nnrf-handler.c:182)
+06/11 15:10:48.108: [amf] INFO: [2555631a-086a-41ee-8a8b-178b850a437a] (NRF-notify) NF Profile updated (../src/amf/nnrf-handler.c:201)
+06/11 15:10:48.189: [amf] INFO: [25572466-086a-41ee-9915-37e95f4270ce] (NRF-notify) NF registered (../src/amf/nnrf-handler.c:182)
+06/11 15:10:48.189: [amf] INFO: [25572466-086a-41ee-9915-37e95f4270ce] (NRF-notify) NF Profile updated (../src/amf/nnrf-handler.c:201)
+>>>>>>> Stashed changes

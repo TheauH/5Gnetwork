@@ -199,6 +199,7 @@ Open5GS daemon v2.4.4
 06/11 14:47:27.020: [smf] INFO: [71ce1fc2-085e-41ee-bae4-4367fd8245be] NF expired (../src/smf/nf-sm.c:301)
 Open5GS daemon v2.4.4
 
+<<<<<<< Updated upstream
 06/11 15:26:55.559: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/smf.yaml' (../lib/app/ogs-init.c:129)
 06/11 15:26:55.560: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/smf.log' (../lib/app/ogs-init.c:132)
 06/11 15:26:55.672: [gtp] INFO: gtp_server() [127.0.0.4]:2123 (../lib/gtp/path.c:30)
@@ -209,3 +210,15 @@ Open5GS daemon v2.4.4
 06/11 15:26:55.674: [sbi] INFO: nghttp2_server() [127.0.0.4]:7777 (../lib/sbi/nghttp2-server.c:144)
 06/11 15:26:55.677: [app] INFO: SMF initialize...done (../src/smf/app.c:31)
 06/11 15:26:55.683: [smf] INFO: [66002a38-086c-41ee-8ea5-0bcb498225f2] NF registred [Heartbeat:10s] (../src/smf/nf-sm.c:199)
+=======
+06/11 15:10:48.080: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/smf.yaml' (../lib/app/ogs-init.c:129)
+06/11 15:10:48.082: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/smf.log' (../lib/app/ogs-init.c:132)
+06/11 15:10:48.173: [gtp] INFO: gtp_server() [127.0.0.4]:2123 (../lib/gtp/path.c:30)
+06/11 15:10:48.174: [gtp] INFO: gtp_server() [127.0.0.4]:2152 (../lib/gtp/path.c:30)
+06/11 15:10:48.174: [pfcp] INFO: pfcp_server() [192.168.0.111]:8805 (../lib/pfcp/path.c:30)
+06/11 15:10:48.175: [pfcp] INFO: ogs_pfcp_connect() [192.168.0.112]:8805 (../lib/pfcp/path.c:59)
+06/11 15:10:48.179: [pfcp] INFO: ogs_pfcp_connect() [192.168.0.113]:8805 (../lib/pfcp/path.c:59)
+06/11 15:10:48.181: [sbi] INFO: nghttp2_server() [127.0.0.4]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/11 15:10:48.183: [app] INFO: SMF initialize...done (../src/smf/app.c:31)
+06/11 15:10:48.190: [smf] INFO: [25572466-086a-41ee-9915-37e95f4270ce] NF registred [Heartbeat:10s] (../src/smf/nf-sm.c:199)
+>>>>>>> Stashed changes
