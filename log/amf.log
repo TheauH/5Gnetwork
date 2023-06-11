@@ -188,3 +188,17 @@ Open5GS daemon v2.4.4
 06/11 14:44:35.852: [amf] INFO: gNB-N2[192.168.0.131] connection refused!!! (../src/amf/amf-sm.c:668)
 06/11 14:44:35.859: [amf] INFO: [Removed] Number of gNBs is now 0 (../src/amf/context.c:897)
 06/11 14:44:35.981: [amf] INFO: [Removed] Number of gNB-UEs is now 0 (../src/amf/context.c:2070)
+Open5GS daemon v2.4.4
+
+06/11 15:26:55.505: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/amf.yaml' (../lib/app/ogs-init.c:129)
+06/11 15:26:55.505: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/amf.log' (../lib/app/ogs-init.c:132)
+06/11 15:26:55.512: [sbi] INFO: nghttp2_server() [127.0.0.5]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/11 15:26:55.517: [amf] INFO: ngap_server() [192.168.0.111]:38412 (../src/amf/ngap-sctp.c:53)
+06/11 15:26:55.527: [sctp] INFO: AMF initialize...done (../src/amf/app.c:33)
+06/11 15:26:55.535: [amf] INFO: [65f45c3a-086c-41ee-9b89-ff9976fe9b1a] NF registred [Heartbeat:10s] (../src/amf/nf-sm.c:198)
+06/11 15:26:55.539: [amf] INFO: [65f6413a-086c-41ee-b06e-7f360edc91a2] (NRF-notify) NF registered (../src/amf/nnrf-handler.c:182)
+06/11 15:26:55.540: [amf] INFO: [65f6413a-086c-41ee-b06e-7f360edc91a2] (NRF-notify) NF Profile updated (../src/amf/nnrf-handler.c:201)
+06/11 15:26:55.554: [amf] INFO: [65f9d7b4-086c-41ee-9740-a92f32d34265] (NRF-notify) NF registered (../src/amf/nnrf-handler.c:182)
+06/11 15:26:55.556: [amf] INFO: [65f9d7b4-086c-41ee-9740-a92f32d34265] (NRF-notify) NF Profile updated (../src/amf/nnrf-handler.c:201)
+06/11 15:26:55.682: [amf] INFO: [66002a38-086c-41ee-8ea5-0bcb498225f2] (NRF-notify) NF registered (../src/amf/nnrf-handler.c:182)
+06/11 15:26:55.682: [amf] INFO: [66002a38-086c-41ee-8ea5-0bcb498225f2] (NRF-notify) NF Profile updated (../src/amf/nnrf-handler.c:201)

@@ -85,3 +85,11 @@ Open5GS daemon v2.4.4
 06/11 13:47:26.998: [pcf] INFO: [71d44cbc-085e-41ee-b02f-0f51b2eb0653] (NF-discover) NF Profile updated (../src/pcf/nnrf-handler.c:346)
 06/11 14:47:26.379: [pcf] INFO: [71d4ea3c-085e-41ee-8427-4f92bcd3baa4] NF expired (../src/pcf/nf-sm.c:294)
 06/11 14:47:26.999: [pcf] INFO: [71d44cbc-085e-41ee-b02f-0f51b2eb0653] NF expired (../src/pcf/nf-sm.c:294)
+Open5GS daemon v2.4.4
+
+06/11 15:26:55.536: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/11 15:26:55.537: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/11 15:26:55.549: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/11 15:26:55.550: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/11 15:26:55.551: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/11 15:26:55.561: [pcf] INFO: [65f9d7b4-086c-41ee-9740-a92f32d34265] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
