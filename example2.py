@@ -22,6 +22,7 @@ if __name__ == "__main__":
     prj_folder="/home/vagrant/comnetsemu/app/5Gnetwork"
     mongodb_folder="/home/vagrant/mongodbdata"
 
+
     env = dict()
 
     net = Containernet(controller=Controller, link=TCLink)
