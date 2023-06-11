@@ -1,0 +1,7 @@
+UERANSIM v3.2.6
+[2023-06-11 10:38:57.459] [nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+[2023-06-11 10:38:59.661] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-06-11 10:39:01.863] [nas] [error] PLMN selection failure, no cells in coverage
+[2023-06-11 10:39:02.460] [rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+[2023-06-11 10:39:02.460] [rrc] [error] Cell selection failure, no suitable or acceptable cell found
+[2023-06-11 10:39:02.964] [nas] [info] UE switches to state [MM-DEREGISTERED/NO-CELL-AVAILABLE]

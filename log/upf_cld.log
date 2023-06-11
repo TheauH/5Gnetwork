@@ -1,0 +1,24 @@
+Open5GS daemon v2.4.4
+
+06/11 10:28:04.484: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:129)
+06/11 10:28:04.485: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf_cld.log' (../lib/app/ogs-init.c:132)
+06/11 10:28:04.557: [sock] ERROR: socket bind(2) [192.168.0.112]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:109)
+06/11 10:28:04.557: [sock] ERROR: udp_server() [192.168.0.112]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:62)
+06/11 10:28:04.558: [app] ERROR: Failed to intialize UPF (../src/upf/app.c:28)
+06/11 10:28:04.558: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)
+Open5GS daemon v2.4.4
+
+06/11 10:29:34.110: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:129)
+06/11 10:29:34.110: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf_cld.log' (../lib/app/ogs-init.c:132)
+06/11 10:29:34.128: [sock] ERROR: socket bind(2) [192.168.0.112]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:109)
+06/11 10:29:34.129: [sock] ERROR: udp_server() [192.168.0.112]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:62)
+06/11 10:29:34.129: [app] ERROR: Failed to intialize UPF (../src/upf/app.c:28)
+06/11 10:29:34.129: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)
+Open5GS daemon v2.4.4
+
+06/11 10:38:45.516: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:129)
+06/11 10:38:45.517: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf_cld.log' (../lib/app/ogs-init.c:132)
+06/11 10:38:45.532: [sock] ERROR: socket bind(2) [192.168.0.112]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:109)
+06/11 10:38:45.532: [sock] ERROR: udp_server() [192.168.0.112]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:62)
+06/11 10:38:45.533: [app] ERROR: Failed to intialize UPF (../src/upf/app.c:28)
+06/11 10:38:45.533: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)
