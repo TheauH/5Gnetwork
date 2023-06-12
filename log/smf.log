@@ -274,3 +274,13 @@ Open5GS daemon v2.4.4
 06/12 18:37:13.799: [smf] WARNING: Retry to association with peer [192.168.0.113]:8805 failed (../src/smf/pfcp-sm.c:107)
 06/12 18:37:13.806: [smf] INFO: PFCP associated (../src/smf/pfcp-sm.c:174)
 06/12 18:37:16.413: [smf] INFO: PFCP associated (../src/smf/pfcp-sm.c:174)
+Open5GS daemon v2.4.4
+
+06/12 18:48:09.842: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/smf.yaml' (../lib/app/ogs-init.c:129)
+06/12 18:48:09.843: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/smf.log' (../lib/app/ogs-init.c:132)
+06/12 18:48:09.915: [gtp] INFO: gtp_server() [127.0.0.4]:2123 (../lib/gtp/path.c:30)
+06/12 18:48:09.916: [gtp] INFO: gtp_server() [127.0.0.4]:2152 (../lib/gtp/path.c:30)
+06/12 18:48:09.916: [sock] ERROR: socket bind(2) [192.168.0.111]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:109)
+06/12 18:48:09.917: [sock] ERROR: udp_server() [192.168.0.111]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:62)
+06/12 18:48:09.917: [app] ERROR: Failed to intialize SMF (../src/smf/app.c:28)
+06/12 18:48:09.918: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)
