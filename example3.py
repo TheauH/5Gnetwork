@@ -166,11 +166,11 @@ if __name__ == "__main__":
     )
 
     info("*** Adding gNB2\n")
-    env["COMPONENT_NAME"]="gnb"
+    env["COMPONENT_NAME"]="gnb2"
     gnb2 = net.addDockerHost(
         "gnb2", 
         dimage="myueransim_v3-2-6",
-        ip="192.168.0.132/24",
+        ip="192.168.0.133/24",
         # dcmd="",
         dcmd="bash /mnt/ueransim/open5gs_gnb2_init.sh",
         docker_args={
@@ -204,7 +204,7 @@ if __name__ == "__main__":
     ue = net.addDockerHost(
         "ue", 
         dimage="myueransim_v3-2-6",
-        ip="192.168.0.133/24",
+        ip="192.168.0.132/24",
         # dcmd="",
         dcmd="bash /mnt/ueransim/open5gs_ue_init.sh",
         docker_args={

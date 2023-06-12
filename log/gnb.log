@@ -1,18 +1,7 @@
 UERANSIM v3.2.6
-[2023-06-11 13:47:20.211] [sctp] [info] Trying to establish SCTP connection... (192.168.0.111:38412)
-[2023-06-11 13:47:20.692] [sctp] [info] SCTP connection established (192.168.0.111:38412)
-[2023-06-11 13:47:20.693] [sctp] [debug] SCTP association setup ascId[47]
-[2023-06-11 13:47:20.693] [ngap] [debug] Sending NG Setup Request
-[2023-06-11 13:47:20.837] [ngap] [debug] NG Setup Response received
-[2023-06-11 13:47:20.837] [ngap] [info] NG Setup procedure is successful
-[2023-06-11 13:47:25.821] [rrc] [debug] UE[1] new signal detected
-[2023-06-11 13:47:25.833] [rrc] [info] RRC Setup for UE[1]
-[2023-06-11 13:47:25.841] [ngap] [debug] Initial NAS message received from UE[1]
-[2023-06-11 13:47:26.452] [ngap] [debug] Initial Context Setup Request received
-[2023-06-11 13:47:27.090] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
-[2023-06-11 13:47:27.189] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
-[2023-06-11 14:45:15.024] [sctp] [warning] Unhandled SCTP notification received
-[2023-06-11 14:53:24.488] [sctp] [debug] SCTP association shutdown (clientId: 2)
-[2023-06-11 14:53:24.493] [ngap] [error] Association terminated for AMF[2]
-[2023-06-11 14:53:24.495] [ngap] [debug] Removing AMF context[2]
-terminate called recursively
+[2023-06-12 18:26:57.798] [rls-udp] [error] RLS failure [Socket bind failed: Cannot assign requested address]
+[2023-06-12 18:26:57.800] [sctp] [info] Trying to establish SCTP connection... (192.168.0.112:38413)
+[2023-06-12 18:26:57.801] [gtp] [error] GTP/UDP task could not be created. Socket bind failed: Cannot assign requested address
+[2023-06-12 18:26:57.807] [sctp] [error] Binding to 192.168.0.131:0 failed. SCTP bind failed: Cannot assign requested address
+[2023-06-12 18:26:57.807] [sctp] [info] Trying to establish SCTP connection... (192.168.0.111:38412)
+[2023-06-12 18:26:57.811] [sctp] [error] Binding to 192.168.0.131:0 failed. SCTP bind failed: Cannot assign requested address

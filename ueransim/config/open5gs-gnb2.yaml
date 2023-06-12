@@ -1,32 +1,24 @@
 mcc: '001'         # Mobile Country Code value
 mnc: '01'          # Mobile Network Code value (2 or 3 digits)
 
-<<<<<<< HEAD
+
 nci: '0x000000011'  # NR Cell Identity (36-bit)
 idLength: 32        # NR gNB ID length in bits [22...32]
 # MB has to change
 tac: 2              # Tracking Area Code 
-=======
-nci: '0x000000010'  # NR Cell Identity (36-bit)
-idLength: 32        # NR gNB ID length in bits [22...32]
-# MB has to change
-tac: 1              # Tracking Area Code 
->>>>>>> 456805e1cf67c8b668258ae07d8f0cbcb16e5cd8
 
 
-linkIp: 192.168.0.132   # gNB's local IP address for Radio Link Simulation (Usually same with local IP)
-ngapIp: 192.168.0.132   # gNB's local IP address for N2 Interface (Usually same with local IP)
-gtpIp: 192.168.0.132    # gNB's local IP address for N3 Interface (Usually same with local IP)
+linkIp: 192.168.0.133   # gNB's local IP address for Radio Link Simulation (Usually same with local IP)
+ngapIp: 192.168.0.133   # gNB's local IP address for N2 Interface (Usually same with local IP)
+gtpIp: 192.168.0.133    # gNB's local IP address for N3 Interface (Usually same with local IP)
 
 # List of AMF address information
 amfConfigs:
   - address: 192.168.0.111
     port: 38412
-<<<<<<< HEAD
   - address: 192.168.0.112
     port: 38413
-=======
->>>>>>> 456805e1cf67c8b668258ae07d8f0cbcb16e5cd8
+
 
 # List of supported S-NSSAIs by this gNB
 slices:
