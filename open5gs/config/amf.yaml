@@ -8,7 +8,7 @@ amf:
         port: 7777
     ngap:
       - addr: 192.168.0.111
-      - addr: 192.168.0.112
+      - addr: 192.168.0.114
     guami:
       - plmn_id:
           mcc: 001
