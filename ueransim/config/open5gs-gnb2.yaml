@@ -16,7 +16,7 @@ gtpIp: 192.168.0.133    # gNB's local IP address for N3 Interface (Usually same 
 amfConfigs:
   - address: 192.168.0.111
     port: 38412
-  - address: 192.168.0.112
+  - address: 192.168.0.114
     port: 38413
 
 
