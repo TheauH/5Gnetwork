@@ -1,7 +1,7 @@
 UERANSIM v3.2.6
-[2023-06-12 20:45:38.382] [rls-udp] [error] RLS failure [Socket bind failed: Cannot assign requested address]
-[2023-06-12 20:45:38.385] [gtp] [error] GTP/UDP task could not be created. Socket bind failed: Cannot assign requested address
-[2023-06-12 20:45:38.386] [sctp] [info] Trying to establish SCTP connection... (192.168.0.114:38413)
-[2023-06-12 20:45:38.390] [sctp] [error] Binding to 192.168.0.131:0 failed. SCTP bind failed: Cannot assign requested address
-[2023-06-12 20:45:38.390] [sctp] [info] Trying to establish SCTP connection... (192.168.0.111:38412)
-[2023-06-12 20:45:38.394] [sctp] [error] Binding to 192.168.0.131:0 failed. SCTP bind failed: Cannot assign requested address
+[2023-06-12 20:57:58.393] [rls-udp] [error] RLS failure [Socket bind failed: Cannot assign requested address]
+[2023-06-12 20:57:58.397] [gtp] [error] GTP/UDP task could not be created. Socket bind failed: Cannot assign requested address
+[2023-06-12 20:57:58.397] [sctp] [info] Trying to establish SCTP connection... (192.168.0.114:38413)
+[2023-06-12 20:57:58.404] [sctp] [error] Binding to 192.168.0.131:0 failed. SCTP bind failed: Cannot assign requested address
+[2023-06-12 20:57:58.404] [sctp] [info] Trying to establish SCTP connection... (192.168.0.111:38412)
+[2023-06-12 20:57:58.409] [sctp] [error] Binding to 192.168.0.131:0 failed. SCTP bind failed: Cannot assign requested address
