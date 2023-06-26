@@ -158,3 +158,27 @@ Open5GS daemon v2.4.4
 06/26 17:16:57.511: [sock] ERROR: udp_server() [192.168.0.113]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:62)
 06/26 17:16:57.511: [app] ERROR: Failed to intialize UPF (../src/upf/app.c:28)
 06/26 17:16:57.511: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)
+Open5GS daemon v2.4.4
+
+06/26 17:27:57.328: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:129)
+06/26 17:27:57.329: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf_mec.log' (../lib/app/ogs-init.c:132)
+06/26 17:27:57.338: [sock] ERROR: socket bind(2) [192.168.0.113]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:109)
+06/26 17:27:57.339: [sock] ERROR: udp_server() [192.168.0.113]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:62)
+06/26 17:27:57.339: [app] ERROR: Failed to intialize UPF (../src/upf/app.c:28)
+06/26 17:27:57.339: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)
+Open5GS daemon v2.4.4
+
+06/26 17:54:07.761: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:129)
+06/26 17:54:07.761: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf_mec.log' (../lib/app/ogs-init.c:132)
+06/26 17:54:07.771: [sock] ERROR: socket bind(2) [192.168.0.113]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:109)
+06/26 17:54:07.772: [sock] ERROR: udp_server() [192.168.0.113]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:62)
+06/26 17:54:07.772: [app] ERROR: Failed to intialize UPF (../src/upf/app.c:28)
+06/26 17:54:07.772: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)
+Open5GS daemon v2.4.4
+
+06/26 17:55:46.627: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:129)
+06/26 17:55:46.628: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf_mec.log' (../lib/app/ogs-init.c:132)
+06/26 17:55:46.638: [sock] ERROR: socket bind(2) [192.168.0.113]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:109)
+06/26 17:55:46.639: [sock] ERROR: udp_server() [192.168.0.113]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:62)
+06/26 17:55:46.639: [app] ERROR: Failed to intialize UPF (../src/upf/app.c:28)
+06/26 17:55:46.640: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)

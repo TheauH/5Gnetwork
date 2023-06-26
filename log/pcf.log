@@ -219,3 +219,29 @@ Open5GS daemon v2.4.4
 06/26 17:16:45.995: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
 06/26 17:16:45.997: [pcf] INFO: [3a60cace-1445-41ee-a826-bbcc093bd64c] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
 06/26 17:26:24.693: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+06/26 17:27:45.792: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/26 17:27:45.792: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/26 17:27:45.797: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/26 17:27:45.797: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/26 17:27:45.799: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/26 17:27:45.806: [pcf] INFO: [c3a8b066-1446-41ee-8480-db9bd1d26601] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+06/26 17:53:56.224: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/26 17:53:56.229: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/26 17:53:56.244: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/26 17:53:56.244: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/26 17:53:56.250: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/26 17:53:56.257: [pcf] INFO: [6bb69cb6-144a-41ee-9a5a-cffcbb61f804] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+06/26 17:55:35.178: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/26 17:55:35.178: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/26 17:55:35.189: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/26 17:55:35.190: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/26 17:55:35.190: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/26 17:55:35.194: [pcf] INFO: [a6b0c7b0-144a-41ee-bda7-836083ef6aea] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+06/26 17:55:35.211: [pcf] INFO: [a6b3edbe-144a-41ee-85f4-bb9b7675bde3] (NRF-notify) NF registered (../src/pcf/nnrf-handler.c:180)
+06/26 17:55:35.211: [pcf] INFO: [a6b3edbe-144a-41ee-85f4-bb9b7675bde3] (NRF-notify) NF Profile updated (../src/pcf/nnrf-handler.c:199)
