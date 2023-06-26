@@ -183,3 +183,22 @@ Open5GS daemon v2.4.4
 06/12 21:05:15.279: [udm] INFO: [d3f62daa-0964-41ee-8fd2-f533c72ef77b] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
 06/12 21:05:15.287: [udm] INFO: [d3f6fc1c-0964-41ee-af0a-a3b26e0e01e8] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
 06/12 21:05:15.287: [udm] INFO: [d3f6fc1c-0964-41ee-af0a-a3b26e0e01e8] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+06/26 17:15:51.072: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+06/26 17:15:51.086: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+06/26 17:15:51.090: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/26 17:15:51.100: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+06/26 17:15:51.211: [udm] INFO: [19a98000-1445-41ee-8592-73bcae2af417] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+06/26 17:15:51.284: [udm] INFO: [19bf9552-1445-41ee-8985-dd53db383605] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+06/26 17:15:51.285: [udm] INFO: [19bf9552-1445-41ee-8985-dd53db383605] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+06/26 17:16:45.951: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+06/26 17:16:45.951: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+06/26 17:16:45.953: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/26 17:16:45.957: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+06/26 17:16:45.964: [udm] INFO: [3a5ce6a2-1445-41ee-9678-df67329fcf12] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+06/26 17:16:45.993: [udm] INFO: [3a5f0068-1445-41ee-81e1-418c0b886855] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+06/26 17:16:45.993: [udm] INFO: [3a5f0068-1445-41ee-81e1-418c0b886855] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+06/26 17:26:24.693: [app] INFO: SIGHUP received (../src/main.c:58)

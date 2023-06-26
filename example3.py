@@ -297,6 +297,10 @@ if __name__ == "__main__":
     with open( prj_folder + "/python_modules/subscriber_profile.json" , 'r') as f:
         profile = json.load( f )
     o5gs.addSubscriber(profile)
+    print(f"*** Open5GS: Init subscriber for UE 1")
+    with open( prj_folder + "/python_modules/subscriber_profile_gnb2.json" , 'r') as file:
+        profile2 = json.load( file )
+    o5gs.addSubscriber(profile2)
 
 
     info("\n*** Starting network\n")
