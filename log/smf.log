@@ -324,3 +324,25 @@ Open5GS daemon v2.4.4
 06/12 20:57:41.308: [sock] ERROR: udp_server() [192.168.0.111]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:62)
 06/12 20:57:41.308: [app] ERROR: Failed to intialize SMF (../src/smf/app.c:28)
 06/12 20:57:41.308: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)
+Open5GS daemon v2.4.4
+
+06/12 21:03:49.030: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/smf.yaml' (../lib/app/ogs-init.c:129)
+06/12 21:03:49.030: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/smf.log' (../lib/app/ogs-init.c:132)
+06/12 21:03:49.135: [gtp] INFO: gtp_server() [127.0.0.4]:2123 (../lib/gtp/path.c:30)
+06/12 21:03:49.136: [gtp] INFO: gtp_server() [127.0.0.4]:2152 (../lib/gtp/path.c:30)
+06/12 21:03:49.137: [sock] ERROR: socket bind(2) [192.168.0.111]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-socket.c:109)
+06/12 21:03:49.137: [sock] ERROR: udp_server() [192.168.0.111]:8805 failed (99:Cannot assign requested address) (../lib/core/ogs-udp.c:62)
+06/12 21:03:49.137: [app] ERROR: Failed to intialize SMF (../src/smf/app.c:28)
+06/12 21:03:49.138: [app] FATAL: Open5GS initialization failed. Aborted (../src/main.c:219)
+Open5GS daemon v2.4.4
+
+06/12 21:05:15.286: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/smf.yaml' (../lib/app/ogs-init.c:129)
+06/12 21:05:15.288: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/smf.log' (../lib/app/ogs-init.c:132)
+06/12 21:05:15.387: [gtp] INFO: gtp_server() [127.0.0.4]:2123 (../lib/gtp/path.c:30)
+06/12 21:05:15.387: [gtp] INFO: gtp_server() [127.0.0.4]:2152 (../lib/gtp/path.c:30)
+06/12 21:05:15.388: [pfcp] INFO: pfcp_server() [192.168.0.111]:8805 (../lib/pfcp/path.c:30)
+06/12 21:05:15.390: [pfcp] INFO: ogs_pfcp_connect() [192.168.0.112]:8805 (../lib/pfcp/path.c:59)
+06/12 21:05:15.394: [pfcp] INFO: ogs_pfcp_connect() [192.168.0.113]:8805 (../lib/pfcp/path.c:59)
+06/12 21:05:15.396: [sbi] INFO: nghttp2_server() [127.0.0.4]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/12 21:05:15.402: [app] INFO: SMF initialize...done (../src/smf/app.c:31)
+06/12 21:05:15.410: [smf] INFO: [d3fd7844-0964-41ee-9c24-59c3f5a1f36f] NF registred [Heartbeat:10s] (../src/smf/nf-sm.c:199)

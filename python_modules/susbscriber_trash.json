@@ -1,0 +1,25 @@
+{
+    "sst": 3,
+    "default_indicator": null,
+    "sd": "000001",
+    "session": [
+      {
+        "name": "gnb2_session",
+        "type": 3,
+        "pcc_rule": [],
+        "ambr": {
+          "Comment": "unit=2 ==> Mbps",
+          "uplink": {"value": 30, "unit": 2},
+          "downlink": {"value": 30, "unit": 2}
+        },
+        "qos": {
+          "index": 8,
+          "arp": {
+            "priority_level": 15,
+            "pre_emption_capability": 1,
+            "pre_emption_vulnerability": 1
+          }
+        }
+      }
+    ]
+  }

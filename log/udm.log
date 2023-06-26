@@ -165,3 +165,21 @@ Open5GS daemon v2.4.4
 06/12 20:57:41.259: [udm] INFO: [c559170e-0963-41ee-a34e-7555937fb9d3] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
 06/12 20:57:41.266: [udm] INFO: [c559019c-0963-41ee-a1cd-a1bf4f99b830] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
 06/12 20:57:41.267: [udm] INFO: [c559019c-0963-41ee-a1cd-a1bf4f99b830] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+06/12 21:03:49.044: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+06/12 21:03:49.045: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+06/12 21:03:49.050: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/12 21:03:49.053: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+06/12 21:03:49.062: [udm] INFO: [a0940c0c-0964-41ee-82bf-0d8b331428a1] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+06/12 21:03:49.086: [udm] INFO: [a0966ac4-0964-41ee-9285-0d54ad7e4826] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+06/12 21:03:49.087: [udm] INFO: [a0966ac4-0964-41ee-9285-0d54ad7e4826] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+06/12 21:05:15.255: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+06/12 21:05:15.255: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+06/12 21:05:15.257: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/12 21:05:15.270: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+06/12 21:05:15.279: [udm] INFO: [d3f62daa-0964-41ee-8fd2-f533c72ef77b] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+06/12 21:05:15.287: [udm] INFO: [d3f6fc1c-0964-41ee-af0a-a3b26e0e01e8] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+06/12 21:05:15.287: [udm] INFO: [d3f6fc1c-0964-41ee-af0a-a3b26e0e01e8] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
