@@ -362,3 +362,28 @@ Open5GS daemon v2.4.4
 06/30 09:20:45.425: [nrf] INFO: [649980a8-1727-41ee-adb9-c3a3e9716389] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
 06/30 09:20:45.427: [nrf] INFO: [649b5a18-1727-41ee-b67a-07cc772439df] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
 06/30 09:20:45.436: [nrf] INFO: [649a8336-1727-41ee-b0f8-9dafbe2bbc89] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+Open5GS daemon v2.4.4
+
+06/30 09:55:40.842: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nrf.yaml' (../lib/app/ogs-init.c:129)
+06/30 09:55:40.843: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nrf.log' (../lib/app/ogs-init.c:132)
+06/30 09:55:40.845: [sbi] INFO: nghttp2_server() [127.0.0.10]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 09:55:40.866: [app] INFO: NRF initialize...done (../src/nrf/app.c:31)
+06/30 09:55:45.805: [nrf] INFO: [4887520a-172c-41ee-81ec-79cbcb06fb46] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+06/30 09:55:45.812: [nrf] INFO: [4889da34-172c-41ee-b50d-df2461ea2e5d] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+06/30 09:55:45.840: [nrf] INFO: [488d7766-172c-41ee-b224-21c8ea89b692] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+06/30 09:55:45.845: [nrf] INFO: [488e4268-172c-41ee-b941-a3be079012b3] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+06/30 09:55:45.863: [nrf] INFO: [488e9f24-172c-41ee-8395-2f7e212d898b] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+06/30 09:55:45.869: [nrf] INFO: [48904770-172c-41ee-876e-212a0dc8effe] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+Open5GS daemon v2.4.4
+
+06/30 10:05:57.743: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/nrf.yaml' (../lib/app/ogs-init.c:129)
+06/30 10:05:57.743: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/nrf.log' (../lib/app/ogs-init.c:132)
+06/30 10:05:57.747: [sbi] INFO: nghttp2_server() [127.0.0.10]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 10:05:57.751: [app] INFO: NRF initialize...done (../src/nrf/app.c:31)
+06/30 10:06:02.814: [nrf] INFO: [b84843dc-172d-41ee-af29-6b039a6501b7] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+06/30 10:06:02.815: [nrf] INFO: [b84cbbec-172d-41ee-b505-d7123a76dbfb] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+06/30 10:06:02.887: [nrf] INFO: [b857b77c-172d-41ee-95a9-6f7a264ef8f2] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+06/30 10:06:02.930: [nrf] INFO: [b858b0dc-172d-41ee-8f7b-e15cd84c3e7a] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+06/30 10:06:02.987: [nrf] INFO: [b866d9aa-172d-41ee-89a9-2f8f29bf9499] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+06/30 10:06:02.995: [nrf] INFO: [b86628b6-172d-41ee-a777-d5730671cf38] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)
+06/30 10:06:04.139: [nrf] INFO: [b86a89d8-172d-41ee-8205-63e995f1b285] NF registred [Heartbeat:10s] (../src/nrf/nf-sm.c:192)

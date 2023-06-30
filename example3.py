@@ -172,7 +172,7 @@ if __name__ == "__main__":
         dimage="myueransim_v3-2-6",
         ip="192.168.0.133/24",
         # dcmd="",
-        dcmd="bash /mnt/ueransim/open5gs_gnb2_init.sh",
+        dcmd="bash /mnt/ueransim/open5gs-gnb2-init.sh",
         docker_args={
             "environment": env,
             "volumes": {
@@ -240,7 +240,7 @@ if __name__ == "__main__":
         dimage="myueransim_v3-2-6",
         ip="192.168.0.134/24",
         # dcmd="",
-        dcmd="bash /mnt/ueransim/open5gs_ue2_init.sh",
+        dcmd="bash /mnt/ueransim/open5gs-ue2_init.sh",
         docker_args={
             "environment": env,
             "volumes": {
