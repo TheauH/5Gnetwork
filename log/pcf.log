@@ -330,3 +330,38 @@ Open5GS daemon v2.4.4
 06/30 12:34:19.849: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
 06/30 12:34:19.849: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
 06/30 12:34:19.851: [pcf] INFO: [6f5604b0-1742-41ee-ba2c-af3e76da95fd] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+06/30 12:47:16.709: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/30 12:47:16.710: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/30 12:47:16.725: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/30 12:47:16.726: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 12:47:16.774: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/30 12:47:16.789: [pcf] INFO: [3e65c816-1744-41ee-bb9d-4b49b4308bae] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+06/30 12:50:18.545: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/30 12:50:18.551: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/30 12:50:18.591: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/30 12:50:18.592: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 12:50:18.599: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/30 12:50:18.606: [pcf] INFO: [aac96a6c-1744-41ee-92bd-4d069bcc982f] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+06/30 13:05:21.271: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/30 13:05:21.271: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/30 13:05:21.328: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/30 13:05:21.329: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 13:05:21.341: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/30 13:05:21.390: [pcf] INFO: [c4d8d72e-1746-41ee-bd4b-e556386dc8c4] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+06/30 13:07:47.641: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+06/30 13:08:47.254: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/30 13:08:47.284: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/30 13:08:47.317: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/30 13:08:47.318: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 13:08:47.333: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/30 13:08:47.338: [pcf] INFO: [3fa3dad0-1747-41ee-90b0-03ea6c152541] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+06/30 13:08:47.477: [pcf] INFO: [3faf5a36-1747-41ee-b920-e1d66c2418f8] (NRF-notify) NF registered (../src/pcf/nnrf-handler.c:180)
+06/30 13:08:47.479: [pcf] INFO: [3faf5a36-1747-41ee-b920-e1d66c2418f8] (NRF-notify) NF Profile updated (../src/pcf/nnrf-handler.c:199)
