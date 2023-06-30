@@ -287,3 +287,46 @@ Open5GS daemon v2.4.4
 06/30 10:06:02.989: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
 06/30 10:06:02.992: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
 06/30 10:06:02.999: [pcf] INFO: [b86628b6-172d-41ee-a777-d5730671cf38] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+06/30 10:15:20.451: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/30 10:15:20.451: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/30 10:15:20.483: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/30 10:15:20.485: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 10:15:20.498: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/30 10:15:20.501: [pcf] INFO: [04aeec8e-172f-41ee-a29b-35c92d1c330b] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+06/30 12:11:34.231: [pcf] ERROR: [04aeec8e-172f-41ee-a29b-35c92d1c330b] No heartbeat (../src/pcf/nf-sm.c:288)
+06/30 12:11:34.273: [pcf] INFO: [04aeec8e-172f-41ee-a29b-35c92d1c330b] NF de-registered (../src/pcf/nf-sm.c:225)
+06/30 12:11:34.400: [pcf] ERROR: [04aeec8e-172f-41ee-a29b-35c92d1c330b] HTTP response error [204] (../src/pcf/nf-sm.c:135)
+06/30 12:11:34.469: [sbi] ERROR: on_stream_close_callback() failed (5:STREAM_CLOSED) (../lib/sbi/nghttp2-server.c:805)
+06/30 12:11:34.470: [sbi] ERROR: No Content-type (../lib/sbi/message.c:920)
+06/30 12:11:34.483: [sbi] ERROR: parse_content() failed (../lib/sbi/message.c:576)
+06/30 12:11:34.483: [pcf] ERROR: cannot parse HTTP message (../src/pcf/pcf-sm.c:78)
+06/30 12:11:34.702: [pcf] WARNING: [04aeec8e-172f-41ee-a29b-35c92d1c330b] Retry to registration with NRF (../src/pcf/nf-sm.c:376)
+06/30 12:11:34.704: [pcf] INFO: [04aeec8e-172f-41ee-a29b-35c92d1c330b] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+06/30 12:19:39.206: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/30 12:19:39.206: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/30 12:19:39.231: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/30 12:19:39.231: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 12:19:39.605: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/30 12:19:39.614: [pcf] INFO: [62728e50-1740-41ee-9284-3b01f7b293cf] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+06/30 12:19:39.642: [pcf] INFO: [62aff452-1740-41ee-9b10-13c1e8bc8e1a] (NRF-notify) NF registered (../src/pcf/nnrf-handler.c:180)
+06/30 12:19:39.645: [pcf] INFO: [62aff452-1740-41ee-9b10-13c1e8bc8e1a] (NRF-notify) NF Profile updated (../src/pcf/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+06/30 12:30:32.369: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/30 12:30:32.369: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/30 12:30:32.424: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/30 12:30:32.447: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 12:30:32.464: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/30 12:30:32.484: [pcf] INFO: [e7c3390a-1741-41ee-8600-415771823c12] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+06/30 12:34:19.822: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/pcf.yaml' (../lib/app/ogs-init.c:129)
+06/30 12:34:19.822: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/pcf.log' (../lib/app/ogs-init.c:132)
+06/30 12:34:19.848: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/30 12:34:19.849: [sbi] INFO: nghttp2_server() [127.0.0.13]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 12:34:19.849: [app] INFO: PCF initialize...done (../src/pcf/app.c:31)
+06/30 12:34:19.851: [pcf] INFO: [6f5604b0-1742-41ee-ba2c-af3e76da95fd] NF registred [Heartbeat:10s] (../src/pcf/nf-sm.c:198)

@@ -1,0 +1,7 @@
+UERANSIM v3.2.6
+[2023-06-30 12:34:38.856] [sctp] [info] Trying to establish SCTP connection... (192.168.0.114:38413)
+[2023-06-30 12:34:46.162] [rrc] [debug] UE[1] new signal detected
+[2023-06-30 12:39:43.172] [sctp] [error] Connecting to 192.168.0.114:38413 failed. SCTP could not connect: Connection timed out
+[2023-06-30 12:39:43.173] [sctp] [info] Trying to establish SCTP connection... (192.168.0.111:38412)
+[2023-06-30 12:39:43.762] [sctp] [error] Connecting to 192.168.0.111:38412 failed. SCTP could not connect: Connection refused
+[2023-06-30 12:41:06.086] [rls] [debug] UE[1] signal lost

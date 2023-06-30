@@ -221,3 +221,32 @@ Open5GS daemon v2.4.4
 06/30 10:06:14.148: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
 06/30 10:06:15.116: [pfcp] INFO: ogs_pfcp_connect() [192.168.0.111]:8805 (../lib/pfcp/path.c:59)
 06/30 10:06:15.118: [upf] INFO: PFCP associated (../src/upf/pfcp-sm.c:173)
+Open5GS daemon v2.4.4
+
+06/30 10:15:31.272: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:129)
+06/30 10:15:31.273: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf_cld.log' (../lib/app/ogs-init.c:132)
+06/30 10:15:31.291: [pfcp] INFO: pfcp_server() [192.168.0.112]:8805 (../lib/pfcp/path.c:30)
+06/30 10:15:31.293: [gtp] INFO: gtp_server() [192.168.0.112]:2152 (../lib/gtp/path.c:30)
+06/30 10:15:31.295: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+06/30 12:19:07.528: [app] INFO: SIGHUP received (../src/main.c:58)
+Open5GS daemon v2.4.4
+
+06/30 12:19:51.058: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:129)
+06/30 12:19:51.058: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf_cld.log' (../lib/app/ogs-init.c:132)
+06/30 12:19:51.148: [pfcp] INFO: pfcp_server() [192.168.0.112]:8805 (../lib/pfcp/path.c:30)
+06/30 12:19:51.153: [gtp] INFO: gtp_server() [192.168.0.112]:2152 (../lib/gtp/path.c:30)
+06/30 12:19:51.158: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.4.4
+
+06/30 12:30:43.714: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:129)
+06/30 12:30:43.715: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf_cld.log' (../lib/app/ogs-init.c:132)
+06/30 12:30:43.801: [pfcp] INFO: pfcp_server() [192.168.0.112]:8805 (../lib/pfcp/path.c:30)
+06/30 12:30:43.807: [gtp] INFO: gtp_server() [192.168.0.112]:2152 (../lib/gtp/path.c:30)
+06/30 12:30:43.812: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+Open5GS daemon v2.4.4
+
+06/30 12:34:30.739: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:129)
+06/30 12:34:30.740: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/upf_cld.log' (../lib/app/ogs-init.c:132)
+06/30 12:34:30.776: [pfcp] INFO: pfcp_server() [192.168.0.112]:8805 (../lib/pfcp/path.c:30)
+06/30 12:34:30.777: [gtp] INFO: gtp_server() [192.168.0.112]:2152 (../lib/gtp/path.c:30)
+06/30 12:34:30.779: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
