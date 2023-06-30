@@ -204,3 +204,27 @@ Open5GS daemon v2.4.4
 06/26 17:55:35.206: [sbi] INFO: nghttp2_server() [127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:144)
 06/26 17:55:35.208: [app] INFO: UDR initialize...done (../src/udr/app.c:31)
 06/26 17:55:35.213: [udr] INFO: [a6b3edbe-144a-41ee-85f4-bb9b7675bde3] NF registred [Heartbeat:10s] (../src/udr/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+06/26 18:13:04.074: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udr.yaml' (../lib/app/ogs-init.c:129)
+06/26 18:13:04.076: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udr.log' (../lib/app/ogs-init.c:132)
+06/26 18:13:04.089: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/26 18:13:04.090: [sbi] INFO: nghttp2_server() [127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/26 18:13:04.093: [app] INFO: UDR initialize...done (../src/udr/app.c:31)
+06/26 18:13:04.097: [udr] INFO: [17e1b776-144d-41ee-8f54-e97d02f3ebc1] NF registred [Heartbeat:10s] (../src/udr/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+06/30 09:19:18.214: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udr.yaml' (../lib/app/ogs-init.c:129)
+06/30 09:19:18.236: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udr.log' (../lib/app/ogs-init.c:132)
+06/30 09:19:18.308: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/30 09:19:18.308: [sbi] INFO: nghttp2_server() [127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 09:19:18.332: [app] INFO: UDR initialize...done (../src/udr/app.c:31)
+06/30 09:19:18.369: [udr] INFO: [30a5a86c-1727-41ee-b155-2d7bfe6935a2] NF registred [Heartbeat:10s] (../src/udr/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+06/30 09:20:45.405: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udr.yaml' (../lib/app/ogs-init.c:129)
+06/30 09:20:45.405: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udr.log' (../lib/app/ogs-init.c:132)
+06/30 09:20:45.419: [dbi] INFO: MongoDB URI: 'mongodb://localhost/open5gs' (../lib/dbi/ogs-mongoc.c:130)
+06/30 09:20:45.421: [sbi] INFO: nghttp2_server() [127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:144)
+06/30 09:20:45.430: [app] INFO: UDR initialize...done (../src/udr/app.c:31)
+06/30 09:20:45.443: [udr] INFO: [649a8336-1727-41ee-b0f8-9dafbe2bbc89] NF registred [Heartbeat:10s] (../src/udr/nf-sm.c:198)
