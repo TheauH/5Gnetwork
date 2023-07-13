@@ -54,7 +54,7 @@
       "downlink": {"value": 1, "unit": 2}
     },
     "security": {
-      "k": "8baf473f2f8fd09487cccbd7097c6862",
+      "k": "8baf473f2f8fd09487cccbd7097c6863",
       "amf": "8000",
       "op": "11111111111111111111111111111111",
       "opc": null

@@ -1,4 +1,7 @@
 UERANSIM v3.2.6
-[2023-06-30 13:09:05.563] [sctp] [info] Trying to establish SCTP connection... (192.168.0.111:38412)
-[2023-06-30 13:09:06.656] [sctp] [error] Connecting to 192.168.0.111:38412 failed. SCTP could not connect: Connection refused
-[2023-06-30 13:09:11.484] [rrc] [debug] UE[1] new signal detected
+[2023-07-13 20:08:39.491] [sctp] [info] Trying to establish SCTP connection... (192.168.0.111:38412)
+[2023-07-13 20:08:39.893] [sctp] [info] SCTP connection established (192.168.0.111:38412)
+[2023-07-13 20:08:39.894] [sctp] [debug] SCTP association setup ascId[159]
+[2023-07-13 20:08:39.894] [ngap] [debug] Sending NG Setup Request
+[2023-07-13 20:08:40.045] [ngap] [debug] NG Setup Response received
+[2023-07-13 20:08:40.045] [ngap] [info] NG Setup procedure is successful

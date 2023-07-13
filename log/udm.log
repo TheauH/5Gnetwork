@@ -346,3 +346,201 @@ Open5GS daemon v2.4.4
 06/30 13:08:47.277: [udm] INFO: [3f9df0a2-1747-41ee-b4d0-71aba7ba2ace] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
 06/30 13:08:47.443: [udm] INFO: [3faf5a36-1747-41ee-b920-e1d66c2418f8] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
 06/30 13:08:47.443: [udm] INFO: [3faf5a36-1747-41ee-b920-e1d66c2418f8] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/04 17:28:46.683: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/04 17:28:46.684: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/04 17:28:46.691: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/04 17:28:46.708: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/04 17:28:46.729: [udm] INFO: [3b42e0f2-1a90-41ee-89a2-8b2ebfb0b1e2] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/04 17:28:46.802: [udm] INFO: [3b4ca7fe-1a90-41ee-b6ec-f32c729aebc0] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/04 17:28:46.802: [udm] INFO: [3b4ca7fe-1a90-41ee-b6ec-f32c729aebc0] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/04 21:18:04.051: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/04 21:18:04.051: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/04 21:18:04.053: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/04 21:18:04.073: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/04 21:18:04.089: [udm] INFO: [4349a96e-1ab0-41ee-979c-9fe51e3ce49f] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+07/04 21:22:00.900: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/04 21:22:00.903: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/04 21:22:00.921: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/04 21:22:00.945: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/04 21:22:00.950: [udm] INFO: [d0779d8c-1ab0-41ee-935d-29ef87343fa9] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/04 21:22:00.991: [udm] INFO: [d07f766a-1ab0-41ee-99c8-b3173f8192aa] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/04 21:22:00.992: [udm] INFO: [d07f766a-1ab0-41ee-99c8-b3173f8192aa] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/04 21:23:10.170: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/04 21:23:10.170: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/04 21:23:10.171: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/04 21:23:10.174: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/04 21:23:10.187: [udm] INFO: [f9bf95d2-1ab0-41ee-97ca-3df6637cc35d] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/04 21:23:10.238: [udm] INFO: [f9c6825c-1ab0-41ee-bd30-3b653a860646] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/04 21:23:10.240: [udm] INFO: [f9c6825c-1ab0-41ee-bd30-3b653a860646] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/07 07:43:29.745: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:43:29.745: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 07:43:29.761: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:43:29.780: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 07:43:29.838: [udm] INFO: [f72bb9a0-1c99-41ee-bd50-0935f82f2a79] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 07:43:29.918: [udm] INFO: [f74090be-1c99-41ee-aaed-2f222eda78cb] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 07:43:29.921: [udm] INFO: [f74090be-1c99-41ee-aaed-2f222eda78cb] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/07 07:44:50.403: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:44:50.403: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 07:44:50.404: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:44:50.415: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 07:44:50.416: [udm] INFO: [273eefc2-1c9a-41ee-9fa4-990a4b672697] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 07:44:50.451: [udm] INFO: [2741f5d2-1c9a-41ee-abdd-65f9d4fbb103] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 07:44:50.452: [udm] INFO: [2741f5d2-1c9a-41ee-abdd-65f9d4fbb103] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/07 07:45:39.895: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:45:39.898: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 07:45:39.899: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:45:39.909: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 07:45:39.912: [udm] INFO: [44bf3cdc-1c9a-41ee-935f-531f0dfbbd2f] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 07:45:39.930: [udm] INFO: [44c2a994-1c9a-41ee-ac8e-6f0357da3a95] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 07:45:39.930: [udm] INFO: [44c2a994-1c9a-41ee-ac8e-6f0357da3a95] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/07 07:46:44.057: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:46:44.059: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 07:46:44.061: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:46:44.066: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 07:46:44.078: [udm] INFO: [6afd9aba-1c9a-41ee-b7a5-0dedc085ead6] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+07/07 07:47:53.548: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:47:53.548: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 07:47:53.551: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:47:53.555: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 07:47:53.559: [udm] INFO: [9468e0d0-1c9a-41ee-ba6a-77d941d9ce54] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+07/07 07:51:09.993: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:51:09.993: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 07:51:09.995: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:51:10.001: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 07:51:10.022: [udm] INFO: [097ff14c-1c9b-41ee-abf0-3bb848f4a7d5] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 07:51:10.055: [udm] INFO: [098756a8-1c9b-41ee-a721-2b0d0d062344] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 07:51:10.055: [udm] INFO: [098756a8-1c9b-41ee-a721-2b0d0d062344] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/07 07:52:32.277: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:52:32.277: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 07:52:32.277: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:52:32.285: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 07:52:32.290: [udm] INFO: [3a8b452a-1c9b-41ee-a041-4da79e5f47aa] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 07:52:54.789: [app] WARNING: Try to discover [UDR] (../lib/sbi/path.c:110)
+07/07 07:52:54.790: [udm] INFO: [3a8a4152-1c9b-41ee-b915-15d34a1a2ae2] (NF-discover) NF registered (../src/udm/nnrf-handler.c:284)
+07/07 07:52:54.791: [udm] INFO: [3a8a4152-1c9b-41ee-b915-15d34a1a2ae2] (NF-discover) NF Profile updated (../src/udm/nnrf-handler.c:330)
+Open5GS daemon v2.4.4
+
+07/07 07:53:17.523: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:53:17.523: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 07:53:17.524: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:53:17.527: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 07:53:17.567: [udm] INFO: [55835be2-1c9b-41ee-bcca-ef29d15e67c2] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 07:53:17.579: [udm] INFO: [55879b8a-1c9b-41ee-b9d3-6fef4ee8e66f] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 07:53:17.579: [udm] INFO: [55879b8a-1c9b-41ee-b9d3-6fef4ee8e66f] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/07 07:54:40.993: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:54:40.994: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 07:54:40.996: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:54:41.003: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 07:54:41.013: [udm] INFO: [8743fde4-1c9b-41ee-b22d-1fde958c1a2e] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 07:54:41.069: [udm] INFO: [874a3010-1c9b-41ee-b63c-4b12869f9efe] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 07:54:41.072: [udm] INFO: [874a3010-1c9b-41ee-b63c-4b12869f9efe] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/07 08:14:27.489: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 08:14:27.489: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 08:14:27.490: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 08:14:27.491: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 08:14:27.498: [udm] INFO: [4a78c770-1c9e-41ee-8a1a-4ba82b669589] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 08:14:27.510: [udm] INFO: [4a79ed30-1c9e-41ee-b1c9-fd89e71fa505] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 08:14:27.510: [udm] INFO: [4a79ed30-1c9e-41ee-b1c9-fd89e71fa505] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/07 08:53:37.125: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 08:53:37.128: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 08:53:37.131: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 08:53:37.133: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 08:53:37.142: [udm] INFO: [c2f7755c-1ca3-41ee-afe4-f306b4dfe3ca] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 08:53:37.159: [udm] INFO: [c2f73e3e-1ca3-41ee-9233-1112cb967c1d] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 08:53:37.159: [udm] INFO: [c2f73e3e-1ca3-41ee-9233-1112cb967c1d] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+07/07 08:54:01.098: [udm] ERROR: [suci-0-001-01-0000-0-0-1234567896] Re-synch MAC failed (../src/udm/nudm-handler.c:127)
+[MAC_S] 0000: 85b58264 05d50545                     ...d...E
+0000: 5aed93c8 5e89d6f7                     Z...^...
+0000: 4074bb65 77b9                         @t.ew.
+Open5GS daemon v2.4.4
+
+07/07 08:59:01.937: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 08:59:01.937: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 08:59:01.940: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 08:59:01.949: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 08:59:01.955: [udm] INFO: [84916218-1ca4-41ee-b187-e1ebda1032f5] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 08:59:02.037: [udm] INFO: [849bd360-1ca4-41ee-9d40-0d7d235fc7ad] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 08:59:02.040: [udm] INFO: [849bd360-1ca4-41ee-9d40-0d7d235fc7ad] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+07/07 08:59:25.924: [udm] ERROR: [suci-0-001-01-0000-0-0-1234567896] Re-synch MAC failed (../src/udm/nudm-handler.c:127)
+[MAC_S] 0000: 4ea93a29 0ff908ea                     N.:)....
+0000: 27723d63 539b96e1                     'r=cS...
+0000: a4353850 db20                         .58P. 
+07/07 09:11:26.921: [udm] ERROR: [suci-0-001-01-0000-0-0-1234567896] Re-synch MAC failed (../src/udm/nudm-handler.c:127)
+[MAC_S] 0000: 1600037f c4403f53                     .....@?S
+0000: a91f12e9 302fa812                     ....0/..
+0000: d97e3872 7a0c                         .~8rz.
+07/07 09:23:27.772: [udm] ERROR: [suci-0-001-01-0000-0-0-1234567896] Re-synch MAC failed (../src/udm/nudm-handler.c:127)
+[MAC_S] 0000: dc1a5cee 7b4a0f06                     ..\.{J..
+0000: 8c36454b 8059df74                     .6EK.Y.t
+0000: cca23f4e 5280                         ..?NR.
+Open5GS daemon v2.4.4
+
+07/07 09:55:59.849: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 09:55:59.849: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 09:55:59.855: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 09:55:59.886: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 09:55:59.897: [udm] INFO: [79cd2616-1cac-41ee-a13d-0741b00a13e9] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 09:56:00.059: [udm] INFO: [79e97d66-1cac-41ee-880f-63d73e4cba86] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 09:56:00.060: [udm] INFO: [79e97d66-1cac-41ee-880f-63d73e4cba86] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/07 09:57:26.297: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 09:57:26.297: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 09:57:26.298: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 09:57:26.317: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 09:57:26.332: [udm] INFO: [ad540004-1cac-41ee-934a-3fd26cf5d527] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 09:57:26.468: [udm] INFO: [ad688164-1cac-41ee-914c-49f000afc17a] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 09:57:26.471: [udm] INFO: [ad688164-1cac-41ee-914c-49f000afc17a] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/07 09:58:11.670: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 09:58:11.671: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 09:58:11.674: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 09:58:11.690: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 09:58:11.703: [udm] INFO: [c85f905c-1cac-41ee-901d-f5be631809a2] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/07 09:58:11.726: [udm] INFO: [c864fe02-1cac-41ee-9f74-457c9607bd56] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/07 09:58:11.727: [udm] INFO: [c864fe02-1cac-41ee-9f74-457c9607bd56] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)
+Open5GS daemon v2.4.4
+
+07/07 09:58:49.095: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/07 09:58:49.108: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/07 09:58:49.109: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 09:58:49.120: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/07 09:58:49.130: [udm] INFO: [deaffb62-1cac-41ee-9549-c3f67d41eb70] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+07/13 20:08:22.270: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/udm.yaml' (../lib/app/ogs-init.c:129)
+07/13 20:08:22.270: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/udm.log' (../lib/app/ogs-init.c:132)
+07/13 20:08:22.289: [sbi] INFO: nghttp2_server() [127.0.0.12]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/13 20:08:22.311: [app] INFO: UDM initialize...done (../src/udm/app.c:31)
+07/13 20:08:22.324: [udm] INFO: [0479e89c-21b9-41ee-b9c5-532da6edc4c3] NF registred [Heartbeat:10s] (../src/udm/nf-sm.c:198)
+07/13 20:08:22.338: [udm] INFO: [047a6772-21b9-41ee-83c6-3be2b7470864] (NRF-notify) NF registered (../src/udm/nnrf-handler.c:180)
+07/13 20:08:22.339: [udm] INFO: [047a6772-21b9-41ee-83c6-3be2b7470864] (NRF-notify) NF Profile updated (../src/udm/nnrf-handler.c:199)

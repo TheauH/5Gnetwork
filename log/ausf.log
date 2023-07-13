@@ -318,3 +318,190 @@ Open5GS daemon v2.4.4
 06/30 13:08:47.232: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
 06/30 13:08:47.298: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
 06/30 13:08:47.301: [ausf] INFO: [3f9b5338-1747-41ee-9689-a345591940c8] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+07/04 17:28:46.666: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/04 17:28:46.667: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/04 17:28:46.671: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/04 17:28:46.673: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/04 17:28:46.696: [ausf] INFO: [3b3fbc06-1a90-41ee-bdde-c9bfb4ce6d71] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/04 17:28:46.728: [ausf] INFO: [3b42e0f2-1a90-41ee-89a2-8b2ebfb0b1e2] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/04 17:28:46.729: [ausf] INFO: [3b42e0f2-1a90-41ee-89a2-8b2ebfb0b1e2] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+07/04 21:18:03.982: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/04 21:18:03.985: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/04 21:18:03.988: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/04 21:18:04.019: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/04 21:18:04.036: [ausf] INFO: [433fb526-1ab0-41ee-a019-e17af1e33f93] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/04 21:18:04.089: [ausf] INFO: [4349a96e-1ab0-41ee-979c-9fe51e3ce49f] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/04 21:18:04.090: [ausf] INFO: [4349a96e-1ab0-41ee-979c-9fe51e3ce49f] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+07/04 21:22:00.956: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/04 21:22:00.956: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/04 21:22:00.960: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/04 21:22:00.968: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/04 21:22:00.973: [ausf] INFO: [d07e61e4-1ab0-41ee-978f-1f29bafd952e] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/04 21:22:24.144: [app] WARNING: Try to discover [UDM] (../lib/sbi/path.c:110)
+07/04 21:22:24.145: [ausf] INFO: [d0779d8c-1ab0-41ee-935d-29ef87343fa9] (NF-discover) NF registered (../src/ausf/nnrf-handler.c:283)
+07/04 21:22:24.146: [ausf] INFO: [d0779d8c-1ab0-41ee-935d-29ef87343fa9] (NF-discover) NF Profile updated (../src/ausf/nnrf-handler.c:329)
+Open5GS daemon v2.4.4
+
+07/04 21:23:10.144: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/04 21:23:10.144: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/04 21:23:10.145: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/04 21:23:10.160: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/04 21:23:10.166: [ausf] INFO: [f9bba09e-1ab0-41ee-8e60-e3aac05a5d0c] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/04 21:23:10.186: [ausf] INFO: [f9bf95d2-1ab0-41ee-97ca-3df6637cc35d] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/04 21:23:10.186: [ausf] INFO: [f9bf95d2-1ab0-41ee-97ca-3df6637cc35d] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+07/07 07:43:29.719: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:43:29.720: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 07:43:29.734: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:43:29.783: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 07:43:29.799: [ausf] INFO: [f729b8f8-1c99-41ee-97af-61564e3065b6] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/07 07:43:29.842: [ausf] INFO: [f72bb9a0-1c99-41ee-bd50-0935f82f2a79] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/07 07:43:29.842: [ausf] INFO: [f72bb9a0-1c99-41ee-bd50-0935f82f2a79] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+07/07 07:44:50.356: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:44:50.356: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 07:44:50.357: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:44:50.361: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 07:44:50.365: [ausf] INFO: [2737ce72-1c9a-41ee-b0ed-9938171840d2] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/07 07:44:50.415: [ausf] INFO: [273eefc2-1c9a-41ee-9fa4-990a4b672697] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/07 07:44:50.415: [ausf] INFO: [273eefc2-1c9a-41ee-9fa4-990a4b672697] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+07/07 07:45:39.893: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:45:39.894: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 07:45:39.895: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:45:39.901: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 07:45:39.906: [ausf] INFO: [44beb3e8-1c9a-41ee-adb6-ffdfdf962f1c] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/07 07:45:39.911: [ausf] INFO: [44bf3cdc-1c9a-41ee-935f-531f0dfbbd2f] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/07 07:45:39.912: [ausf] INFO: [44bf3cdc-1c9a-41ee-935f-531f0dfbbd2f] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+07/07 07:46:44.058: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:46:44.060: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 07:46:44.063: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:46:44.069: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 07:46:44.072: [ausf] INFO: [6afe03ba-1c9a-41ee-91c2-7f171e4a4355] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+07/07 07:47:53.522: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:47:53.522: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 07:47:53.523: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:47:53.530: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 07:47:53.533: [ausf] INFO: [9464b96a-1c9a-41ee-a2ed-b7f9a3329e92] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/07 07:47:53.557: [ausf] INFO: [9468e0d0-1c9a-41ee-ba6a-77d941d9ce54] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/07 07:47:53.557: [ausf] INFO: [9468e0d0-1c9a-41ee-ba6a-77d941d9ce54] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+07/07 07:51:09.999: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:51:09.999: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 07:51:10.000: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:51:10.012: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 07:51:10.015: [ausf] INFO: [0980b7bc-1c9b-41ee-b916-d3b65e37b628] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/07 07:51:10.019: [ausf] INFO: [097ff14c-1c9b-41ee-abf0-3bb848f4a7d5] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/07 07:51:10.024: [ausf] INFO: [097ff14c-1c9b-41ee-abf0-3bb848f4a7d5] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+07/07 07:52:32.244: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:52:32.244: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 07:52:32.245: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:52:32.250: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 07:52:32.255: [ausf] INFO: [3a865042-1c9b-41ee-a64c-6b4b5c1dd206] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/07 07:52:32.286: [ausf] INFO: [3a8b452a-1c9b-41ee-a041-4da79e5f47aa] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/07 07:52:32.287: [ausf] INFO: [3a8b452a-1c9b-41ee-a041-4da79e5f47aa] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+07/07 07:53:17.544: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:53:17.544: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 07:53:17.545: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:53:17.559: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 07:53:17.560: [ausf] INFO: [55868218-1c9b-41ee-a46a-e967a07d1da7] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/07 07:53:17.565: [ausf] INFO: [55835be2-1c9b-41ee-bcca-ef29d15e67c2] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/07 07:53:17.566: [ausf] INFO: [55835be2-1c9b-41ee-bcca-ef29d15e67c2] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+07/07 07:54:41.030: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 07:54:41.031: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 07:54:41.032: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 07:54:41.038: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 07:54:41.046: [ausf] INFO: [8749ab90-1c9b-41ee-b6bf-41772128e9ac] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/07 07:55:04.318: [app] WARNING: Try to discover [UDM] (../lib/sbi/path.c:110)
+07/07 07:55:04.320: [ausf] INFO: [8743fde4-1c9b-41ee-b22d-1fde958c1a2e] (NF-discover) NF registered (../src/ausf/nnrf-handler.c:283)
+07/07 07:55:04.320: [ausf] INFO: [8743fde4-1c9b-41ee-b22d-1fde958c1a2e] (NF-discover) NF Profile updated (../src/ausf/nnrf-handler.c:329)
+Open5GS daemon v2.4.4
+
+07/07 08:14:27.455: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 08:14:27.455: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 08:14:27.458: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 08:14:27.462: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 08:14:27.483: [ausf] INFO: [4a73e598-1c9e-41ee-82ff-9565bf48efbe] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/07 08:14:27.496: [ausf] INFO: [4a78c770-1c9e-41ee-8a1a-4ba82b669589] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/07 08:14:27.496: [ausf] INFO: [4a78c770-1c9e-41ee-8a1a-4ba82b669589] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
+Open5GS daemon v2.4.4
+
+07/07 08:53:37.117: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 08:53:37.119: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 08:53:37.120: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 08:53:37.160: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 08:53:37.173: [ausf] INFO: [c2f5e174-1ca3-41ee-8f83-8d2be4d8ff6b] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/07 08:54:00.329: [app] WARNING: Try to discover [UDM] (../lib/sbi/path.c:110)
+07/07 08:54:00.331: [ausf] INFO: [c2f7755c-1ca3-41ee-afe4-f306b4dfe3ca] (NF-discover) NF registered (../src/ausf/nnrf-handler.c:283)
+07/07 08:54:00.331: [ausf] INFO: [c2f7755c-1ca3-41ee-afe4-f306b4dfe3ca] (NF-discover) NF Profile updated (../src/ausf/nnrf-handler.c:329)
+07/07 08:54:01.104: [ausf] ERROR: [suci-0-001-01-0000-0-0-1234567896] HTTP response error [401] (../src/ausf/ue-sm.c:129)
+Open5GS daemon v2.4.4
+
+07/07 08:59:01.984: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 08:59:01.985: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 08:59:01.987: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 08:59:02.014: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 08:59:02.016: [ausf] INFO: [8498959c-1ca4-41ee-9789-c97e9ff7d50e] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/07 08:59:25.761: [app] WARNING: Try to discover [UDM] (../lib/sbi/path.c:110)
+07/07 08:59:25.765: [ausf] INFO: [84916218-1ca4-41ee-b187-e1ebda1032f5] (NF-discover) NF registered (../src/ausf/nnrf-handler.c:283)
+07/07 08:59:25.766: [ausf] INFO: [84916218-1ca4-41ee-b187-e1ebda1032f5] (NF-discover) NF Profile updated (../src/ausf/nnrf-handler.c:329)
+07/07 08:59:25.925: [ausf] ERROR: [suci-0-001-01-0000-0-0-1234567896] HTTP response error [401] (../src/ausf/ue-sm.c:129)
+07/07 09:11:26.928: [ausf] ERROR: [suci-0-001-01-0000-0-0-1234567896] HTTP response error [401] (../src/ausf/ue-sm.c:129)
+07/07 09:23:27.779: [ausf] ERROR: [suci-0-001-01-0000-0-0-1234567896] HTTP response error [401] (../src/ausf/ue-sm.c:129)
+Open5GS daemon v2.4.4
+
+07/07 09:55:59.849: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 09:55:59.850: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 09:55:59.856: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 09:55:59.890: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 09:55:59.897: [ausf] INFO: [79cdeeca-1cac-41ee-8043-c3a4bec463ce] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+07/07 09:57:26.355: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 09:57:26.359: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 09:57:26.372: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 09:57:26.383: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 09:57:26.390: [ausf] INFO: [ad5f6ab6-1cac-41ee-a33e-1f2ac3646b0a] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+07/07 09:58:11.694: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 09:58:11.694: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 09:58:11.695: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 09:58:11.704: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 09:58:11.712: [ausf] INFO: [c8631a6a-1cac-41ee-bf42-159a83f40696] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+07/07 09:58:49.140: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/07 09:58:49.141: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/07 09:58:49.148: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/07 09:58:49.149: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/07 09:58:49.157: [ausf] INFO: [deb51cf0-1cac-41ee-8969-2731ae061284] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+Open5GS daemon v2.4.4
+
+07/13 20:08:22.223: [app] INFO: Configuration: '/open5gs/install/etc/open5gs/ausf.yaml' (../lib/app/ogs-init.c:129)
+07/13 20:08:22.223: [app] INFO: File Logging: '/open5gs/install/var/log/open5gs/ausf.log' (../lib/app/ogs-init.c:132)
+07/13 20:08:22.249: [sbi] INFO: nghttp2_server() [127.0.0.11]:7777 (../lib/sbi/nghttp2-server.c:144)
+07/13 20:08:22.260: [app] INFO: AUSF initialize...done (../src/ausf/app.c:31)
+07/13 20:08:22.268: [ausf] INFO: [0474c272-21b9-41ee-a071-3def827ac0bb] NF registred [Heartbeat:10s] (../src/ausf/nf-sm.c:198)
+07/13 20:08:22.320: [ausf] INFO: [0479e89c-21b9-41ee-b9c5-532da6edc4c3] (NRF-notify) NF registered (../src/ausf/nnrf-handler.c:179)
+07/13 20:08:22.320: [ausf] INFO: [0479e89c-21b9-41ee-b9c5-532da6edc4c3] (NRF-notify) NF Profile updated (../src/ausf/nnrf-handler.c:198)
