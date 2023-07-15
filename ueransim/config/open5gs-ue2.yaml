@@ -7,7 +7,8 @@ mcc: '001'
 mnc: '01'
 
 # Permanent subscription key
-key: '8baf473f2f8fd09487cccbd7097c6862'
+#MODIFIED
+key: '8baf473f2f8fd09487cccbd7097c6863'
 # Operator code (OP or OPC) of the UE
 op: '11111111111111111111111111111111'
 # This value specifies the OP type and it can be either 'OP' or 'OPC'
