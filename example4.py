@@ -3,14 +3,19 @@
 
 
 import os
+import subprocess
+import tmuxCmd
+import comnetsemu.node
 
 from comnetsemu.cli import CLI, spawnXtermDocker
 from comnetsemu.net import Containernet, VNFManager
+
 from cmd import Cmd
 from mininet.link import TCLink
 from mininet.log import info, setLogLevel
 from mininet.node import Controller
-
+from connectivityTest import test_connections
+from configurationTest import configurationTest
 from python_modules.Open5GS   import Open5GS
 
 import json, time, subprocess, sys
@@ -302,6 +307,7 @@ if __name__ == "__main__":
     with open( prj_folder + "/python_modules/subscriber_profile_gnb2.json" , 'r') as file:
         profile2 = json.load( file )
     o5gs.addSubscriber(profile2)
+    print(f"*** Open5GS: Init subscriber for UE 2")
 
 
     info("\n*** Starting network\n")
@@ -310,7 +316,114 @@ if __name__ == "__main__":
     if not AUTOTEST_MODE:
         # spawnXtermDocker("open5gs")
         # spawnXtermDocker("gnb")
-        CLI(net)
+        info("*** Waiting for the configuration of the network to finish \n")
+        time.sleep(20)
+        
+        #This is a common error that occurs, if you have a bad connection or if you are on a videocall and for many other reasons
+        commonerror = 'ERROR: socket bind(2) [192.168.0.111]:38412 failed (99:Cannot assign requested address)'
+        # ***** Testing configuration ****
+        info("*** Configuration test *** \n")
+        if(configurationTest('/home/vagrant/comnetsemu/app/5Gnetwork/log/amf.log',commonerror,8) is True):
+            info("*** Configuration problem. Please, check your internet connection. \n")
+            net.stop()
+            os.system("sudo ./clean.sh")
+            sys.exit(1)
+        output = ue2.cmd('ifconfig')
+        info("Interfaces :\n")
+        info(output+"\n")
+        while "uesimtun0:" not in output and "uesimtun1:" not in output:
+            info("Waiting more time\n")
+            time.sleep(5)
+            output = ue2.cmd('ifconfig')
+            info("Interfaces :\n")
+            info(output+"\n")
+        info("Configuration of the network ready\n***\n")
+
+        # ***** Testing connectivity ***********
+        info("*** Connections tests *** \n")
+        output = ue2.cmd("ping -c 3 -n -I uesimtun0 www.google.com")
+        info(output+"\n")
+        if "3 packets transmitted, 3 received" not in output:
+            info("Connections tests failed\n")
+        output = ue2.cmd("ping -c 3 -n -I uesimtun1 www.google.com")
+        info(output+"\n")
+        if "3 packets transmitted, 3 received" not in output:
+            info("Connections tests failed\n")
+
+        info("Connections tests ok\n\n")
+        info("*** Latency tests *** \n\n")
+        first_cmd = './start_tcpdump.sh upf_cld'
+        second_cmd = './start_tcpdump.sh upf_mec'
+        # Starting two terminals and passing the commands
+        tmuxCmd.start_two_terminals(first_cmd,second_cmd)
+        output = ue2.cmd("ping -c 3 -n -I uesimtun0 10.45.0.1")
+        info(output+"\n")
+        if "3 packets transmitted, 3 received" in output:
+            info("Latency test 1 passed\n")
+        else :
+            info("Latency test 1 failed\n")
+        output = ue2.cmd("ping -c 3 -n -I uesimtun1 10.46.0.1")
+        info(output+"\n")
+        if "3 packets transmitted, 3 received" in output:
+            info("Latency test 2 passed\n")
+        else :
+            info("Latency test 2 failed\n")
+        
+        info("*** Bandwith tests *** \n\n")
+        output = ue2.cmd("iperf3 -c 10.45.0.1 -B 10.45.0.3 -t 5")
+        info(output+"\n")
+        if "iperf3: error" in output:
+            info("Bandwith test 1 failed\n")
+        else :
+            info("Bandwith test 1 passed\n")
+        output = ue2.cmd("iperf3 -c 10.46.0.1 -B 10.46.0.3 -t 5")
+        info(output+"\n")
+        if "iperf3: error" in output:
+            info("Bandwith test 2 failed\n")
+        else :
+            info("Bandwith test 2 passed\n")
+        
+        
+        info("*** Bandwith tests part 2 ***\n")
+        
+        #info("Updating subscribers")
+
+        #script_path = "update_subscribers.py"
+        # Run the script using the Python interpreter
+        #subprocess.run(['sudo','python3', script_path], check=True)  
+
+        # ue2.cmd("./nr-cli imsi-001011234567896 &")
+        # time.sleep(5)
+        # ue2.popen("docker exec nr-cli ps-establish IPv4 --sst 1 --sd 1 ")
+        # time.sleep(5)
+        # ue2.popen("docker exec nr-cli ps-establish IPv4 --sst 2 --sd 1 ")
+        # time.sleep(5)
+        # ue2.popen("docker exec nr-cli status")
+        # time.sleep(5)
+        # output = ue2.cmd("ifconfig")
+        # info(output+"\n")
+        # if "uesimtun2" not in output and "uesimtun3" not in output:
+        #     info("Bandwith tests part 2 failed\n")
+        # else :
+        #     info("Bandwith tests part 2: Test 1 passed\n")
+        #     output = ue2.cmd("iperf3 -c 10.45.0.1 -B 10.45.0.4 -t 5")
+        #     info(output+"\n")
+        #     if "iperf3: error" not in output:
+        #         info("Bandwith tests part 2: Test 2 passed\n")
+        #     output = ue2.cmd("iperf3 -c 10.46.0.1 -B 10.46.0.3 -t 5")
+        #     info(output+"\n")
+        #     if "iperf3: error" not in output:
+        #         info("Bandwith tests part 3: Test 1 passed\n")
+
+        info("*** Testing the connection ue2-ue1 *** \n")
+        output = ue2.cmd("ping -c 3 -n -I uesimtun0 192.168.0.132")
+        info(output+"\n")
+        info("*** Testing the connection ue1-ue2 *** \n")
+        output = ue.cmd("ping -c 3 -n -I uesimtun0 192.168.0.134")  
+        info(output+"\n")  
+        info("Test finished\n")
+
+        subprocess.run(['tmux','kill-session', '-t','my_session'], check=True)
         
     net.stop()
     os.system("sudo ./clean.sh")
