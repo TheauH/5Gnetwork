@@ -13,6 +13,7 @@ Tested Versions:
 Python packages:
 - pymongo
 - json
+  
 Other package:
 https://github.com/tmux/tmux/wiki/Installing 
 
@@ -79,7 +80,7 @@ $ sudo python3 example1.py
 The scenario includes 5 DockerHosts as shown in the figure below.
 The UE starts two PDU sessions one for each slice defined in the core network.
 
-<img src="./images/new-network-topology.png" title="./images/new-network-topology.png" width=1000px></img>
+<img src="./images/new-network-topology2.png" title="./images/new-network-topology2.png" width=1000px></img>
 
 Notice that at the first run, the set-up should not work due to missing information in the 5GC.
 To configure it we should leverage the WebUI by opening the following page in a browser on the host OS.
