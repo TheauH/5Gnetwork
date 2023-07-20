@@ -13,6 +13,8 @@ Tested Versions:
 Python packages:
 - pymongo
 - json
+Other package:
+https://github.com/tmux/tmux/wiki/Installing 
 
 ## Build Instructions
 
